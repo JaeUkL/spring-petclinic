@@ -11,7 +11,7 @@ stages {
         steps {
             echo 'Git Clone'
             git url: 'https://github.com/JaeUkL/spring-petclinic.git' ,
-            branch: 'wavefront'
+            branch: 'wavefront', 'github_access_token'
 
         }
     }
