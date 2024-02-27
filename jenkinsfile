@@ -1,3 +1,6 @@
+pipeline {
+   agent any
+
 tools {
     jdk "jdk16"
     maven "M3"
